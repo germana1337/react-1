@@ -90,12 +90,12 @@ function addAsync(a, b) {
   });
 }
 
-// example 1
+// eXample 1
 addAsync(2, "Jhon")
   .then((resolve) => console.log(resolve))
   .catch((reject) => console.log(reject));
 
-// example 2
+// eXample 2
 addAsync(2, 5)
   .then((resolve) => console.log(resolve))
   .catch((reject) => console.log(reject));
