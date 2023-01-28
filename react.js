@@ -85,7 +85,7 @@ function addAsync(a, b) {
     ) {
       resolve(a + b);
     } else {
-      reject("error");
+      reject("ERROR ERROR ERROR");
     }
   });
 }
